@@ -2,7 +2,7 @@
 
 <suite name="FakeStore API Suite">
     <test name="Get Product Test">
-        <parameter name="productId" value="1"/>
+        <parameter name="productId" value="2"/>
         <classes>
             <class name="fakestore.ProductCatalogTest"/>
         </classes>
