@@ -83,7 +83,6 @@ public class ProductCatalogTest extends BaseTest {
                         .response();
 
         int createdProductId = response.jsonPath().getInt("id");
-
         System.out.println("Created Product ID: " + createdProductId);
         System.out.println(response.asPrettyString());
 
